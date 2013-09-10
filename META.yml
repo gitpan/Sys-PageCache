@@ -1,0 +1,22 @@
+---
+abstract: 'handling page cache related on files'
+author:
+  - 'HIROSE Masaaki'
+build_requires:
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.74, CPAN::Meta::Converter version 2.130880'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Sys-PageCache
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Pod::Usage: 1.36
+version: 0.01_001

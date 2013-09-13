@@ -22,7 +22,9 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "File::Temp" : "0",
+            "Test::More" : "0",
+            "Test::Output" : "0"
          }
       },
       "configure" : {
@@ -36,6 +38,6 @@
          }
       }
    },
-   "release_status" : "testing",
-   "version" : "0.01_002"
+   "release_status" : "stable",
+   "version" : "0.02"
 }
